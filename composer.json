@@ -1,0 +1,35 @@
+{
+	"name": "germania-kg/attributesrenderer",
+	"description": "Render HTML/XML attributes",
+
+	"license": "MIT",
+
+	"authors": [
+		{
+			"name":  "Carsten Witt",
+			"email": "carstenwitt@germania-kg.de",
+			"role":  "Developer"
+		}
+	],
+
+	"autoload": {
+		"psr-4": {
+			"Germania\\AttributesRenderer\\": "src"
+		}
+	},
+
+  "autoload-dev": {
+      "psr-4": {
+      	"tests\\": "tests/src"
+      }
+  },
+
+	"require": {
+	},
+
+	"require-dev": {
+			"satooshi/php-coveralls": "^1.0",
+			"phpunit/phpunit": "^5.2|^6.0"
+	}
+
+}
