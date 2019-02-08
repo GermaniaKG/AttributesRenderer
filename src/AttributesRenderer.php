@@ -16,6 +16,7 @@ class AttributesRenderer {
         $this->value_separator = (!is_null( $value_separator)) ? $value_separator : $this->value_separator;
     }
 
+
     /**
      * @param  string|array $name Attribute name or array of attribute name and value pairs (recursion)
      * @param  string[]     $value
