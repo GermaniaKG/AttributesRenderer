@@ -25,6 +25,8 @@ class AttributesRenderer {
      */
     public function __invoke($name, $value = null, $value_separator = null) {
 
+        $value_separator = (!is_null( $value_separator)) ? $value_separator : $this->value_separator;
+
         // Recursion if attribute array given
         if (is_array($name)):
             $attr_strings = [];
@@ -32,7 +34,7 @@ class AttributesRenderer {
             foreach($name as $n => $v):
                 array_push($attr_strings, $recursion($n, $v, $value_separator));
             endforeach;
-            return implode(" ", $attr_strings);
+            return implode($value_separator, array_filter($attr_strings));
         endif;
 
 
@@ -44,7 +46,6 @@ class AttributesRenderer {
         endif;
 
         // Prepare results
-        $value_separator = (!is_null( $value_separator)) ? $value_separator : $this->value_separator;
         $attr_value_str  = implode($value_separator, $value);
 
         return sprintf($this->template, $name, $attr_value_str);
