@@ -3,11 +3,7 @@
 
 [![Packagist](https://img.shields.io/packagist/v/germania-kg/attributesrenderer.svg?style=flat)](https://packagist.org/packages/germania-kg/attributesrenderer)
 [![PHP version](https://img.shields.io/packagist/php-v/germania-kg/attributesrenderer.svg)](https://packagist.org/packages/germania-kg/attributesrenderer)
-[![Build Status](https://img.shields.io/travis/GermaniaKG/AttributesRenderer.svg?label=Travis%20CI)](https://travis-ci.org/GermaniaKG/AttributesRenderer)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GermaniaKG/AttributesRenderer/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/AttributesRenderer/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/AttributesRenderer/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/AttributesRenderer/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/GermaniaKG/AttributesRenderer/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/AttributesRenderer/build-status/master)
-
+[![Tests](https://github.com/GermaniaKG/AttributesRenderer/actions/workflows/tests.yml/badge.svg)](https://github.com/GermaniaKG/AttributesRenderer/actions/workflows/tests.yml)
 
 ## Installation with Composer
 
